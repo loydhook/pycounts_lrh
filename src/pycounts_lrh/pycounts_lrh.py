@@ -1,5 +1,6 @@
 from collections import Counter
 from string import punctuation
+import matplotlib as plt
 
 def load_text(input_file):
     """Load text from a text file and return as a string."""
@@ -21,3 +22,4 @@ def count_words(input_file):
     text = clean_text(text)
     words = text.split()
     return Counter(words)
+

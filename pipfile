@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 toml = "*"
+matplotlib = "*"
+pycounts-lrh = {editable = true, path = "."}
+pyqt5 = "*"
 
 [requires]
 python_version = "3.10"
